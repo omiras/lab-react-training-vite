@@ -6,7 +6,7 @@ export default function IdCard({ lastName, firstName, gender, height, birth, pic
         }}>
             <img src={picture} />
             <div style={{
-                textAlign: 'left'
+                textAlign: 'left',
             }}>
                 <div><strong>First name:</strong> {firstName}</div>
                 <div><strong>Last name:</strong> {lastName}</div>

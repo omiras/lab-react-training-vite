@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+.container {
+  background-color: aquamarine;
+}
+
 .container-component {
   display: flex;
   flex-direction: column;
