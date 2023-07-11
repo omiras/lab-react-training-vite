@@ -2,16 +2,25 @@ import "./App.css";
 import IdCard from "./components/IdCard";
 import Greetings from "./components/Greetings";
 import Random from "./components/Random";
+import { ClickablePicture } from "./components/ClickablePicture";
+import RGBColorPicker from "./components/RGBColorPicker";
 
 
 function App() {
+
+
   return (
     <div className="App" data-whatever={{
       valor: 1
     }}>
       <h1> LAB | React Training</h1>
       <div className="container container-component">
-        <Random min={1} max={6} />
+
+        <RGBColorPicker />
+
+
+
+        {/* <Random min={1} max={6} />
         <Random min={1} max={100} />
         <IdCard
           lastName='Doe'
@@ -39,6 +48,7 @@ function App() {
         />
         <Greetings lang="de">Ludwig</Greetings>
         <Greetings lang="fr">François</Greetings>
+        <ClickablePicture img="https://cdn2.thecatapi.com/images/2bn.jpg" imgClicked="https://cdn2.thecatapi.com/images/6hj.jpg" /> */}
       </div>
     </div >
   );
